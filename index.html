@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <div>
+        <h4><i></i>click on this button make a surprise gift waiting for you<i></i></h4>
+    <button onclick="fest()">Greeting</button>
+    </div>
+
+    <script>
+        function fest() {
+            
+        
+        
+      let div = document.createElement("div");
+      div.style.backgroundImage="url('./fra.avif')"
+     
+      div.style.height = "485px";
+       div.style.width = "320px";
+      div.style.padding = "30px";
+      div.style.border = "2px solid black";
+      document.body.appendChild(div);
+      let name = document.createElement("name");
+      name.innerHTML = "Greeting!";
+      name.innerHTML = "<b>In Advance Happy Merry christmas";
+      name.style.margin = "20px";
+
+      div.appendChild(name);
+
+      let img = document.createElement("img");
+      img.setAttribute("src", "./jesus.webp");
+      img.style.height = "130px";
+    
+      img.style.margin="39px"
+      div.append(img);
+
+      let name1 = document.createElement("nam");
+      name1.style.marginLeft = "26px";
+      name1.innerHTML = "<i><b>Christmas is'nt a season is a feeling ";
+      div.append(name1);
+      let name2 = document.createElement("na");
+      name2.innerHTML =
+        "<ul><li>C-Chirst</li><li>H-Heavenly</li><li>R-Redemption</li><li>I-Incarnation</li><li>S-Saviour</li><li>T-Tree</li><li>M-Miracles</li><li>A-Angle</li><li>S-Santa Cluas</li></ul>";
+      div.append(name2);
+      let name3 = document.createElement("n");
+      name3.innerHTML = "let,s Enjoy The Day......,,,,";
+      name3.style.margin="60px"
+      div.append(name3);
+        }
+    </script>
+  </body>
+</html>
